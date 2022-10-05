@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #808080;
+  padding: 10px 10px;
+}
+
+.logo {
+  float: left;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header span.iconn {
+  float: right;
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: rgb(30, 142, 235);
+  cursor: pointer;
+  width: 50%;
+  font-size: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.container {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.circle {
+  padding: 2px 8px;
+  border-radius: 50%;
+  border: 2px solid green;
+  background-color: #fff;
+  color: #000;
+}
+
+.SearchIcon {
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+}
+
+.row {
+  width: 850px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.mouse {
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: rgb(30, 142, 235);
+  color: white;
+}
